@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Generator</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+<body>
+    <h1>Question Generator</h1>
+    <form id="question-form">
+        <label for="text-source">Select a text source:</label>
+        <select id="text-source"></select>
+        <label for="num-questions">Number of questions:</label>
+        <input type="number" id="num-questions" min="1" max="5">
+        <button type="submit">Generate Questions</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../components/Question/Question.js"></script>
+</body>
+</html>
